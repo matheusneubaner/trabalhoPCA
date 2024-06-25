@@ -1,0 +1,21 @@
+@font-face {
+  font-family: ConcertOne;
+  src: url(../assets/fonts/ConcertOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(../assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+:root {
+  --laranja: #db6100;
+  --verde-claro: #278c9c;
+  --ciano: #00bddb;
+  --marrom: #86542d;
+  --verde-escuro: #2e565c;
+  --branco: #fff;
+  --preto: #000;
+  --fonte-menu: ConcertOne, sans-serif;
+  --fonte-texto: Oswald, sans-serif;
+}

@@ -1,0 +1,34 @@
+@media (max-width: 699px) {
+  header {
+    justify-content: space-between;
+  }
+
+  #icon-mobile-menu {
+    display: block;
+  }
+
+  .list-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    background-color: var(--verde-claro);
+    text-align: center;
+  }
+
+  .mobile-menu li {
+    padding: 5px;
+  }
+
+  .mobile-menu li a {
+    font-family: var(--fonte-menu);
+    text-decoration: none;
+    color: var(--branco);
+  }
+
+  .mobile-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .5s;
+  }
+}
+ 

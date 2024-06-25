@@ -1,0 +1,11 @@
+Vídeo de apresentação do Projeto:
+-> https://www.youtube.com/watch?v=BWyi7_53zHk
+
+
+Repositorio do GitHub que contém o projeto:
+-> https://github.com/JPedroCSz/site-read.git
+
+
+
+Link do site hospedado pelo GitHub Pages:
+-> https://jpedrocsz.github.io/site-read/

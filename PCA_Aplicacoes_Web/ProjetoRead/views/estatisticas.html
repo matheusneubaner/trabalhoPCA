@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/variaveis.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/estatisticas.css"
+    <link rel="stylesheet" href="../css/responsivo/menu-responsivo.css" />
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+    <title>Estatisticas</title>
+  </head>
+  <body onresize="ocultaMenuMobile()">
+    <header>
+      <a href="../index.html"><img src="../assets/img/logo.png" alt="logo-do-site" /></a>
+      <nav class="list-menu">
+        <ul>
+          <li><a href="biblioteca.html">Biblioteca</a></li>
+          <li><a href="leitura.html">Leitura</a></li>
+          <li><a href="estatisticas.html">Estatisticas</a></li>
+          <li><a href="praticaEscrita.html">Prática da Escrita</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </nav>
+      <div id="icon-mobile-menu" onclick="abreMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <nav class="mobile-menu">
+      <ul>
+        <li><a href="biblioteca.html">Biblioteca</a></li>
+        <li><a href="leitura.html">Leitura</a></li>
+        <li><a href="estatisticas.html">Estatisticas</a></li>
+        <li><a href="praticaEscrita.html">Prática da Escrita</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Corpo e conteudo da página -->
+    <main>
+      <div class="stats-container">
+        <h2 class="stats-header">Estatísticas de Leitura no Brasil</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-title">Leitores no Brasil</div>
+            <div class="stat-value">100M</div>
+            <p>52% da população brasileira leu pelo menos um livro nos últimos três meses.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Influenciadores da Leitura</div>
+            <div class="stat-value">52%</div>
+            <p>Professores são os principais incentivadores de leitura.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Pais que Nunca Leram</div>
+            <div class="stat-value">60%</div>
+            <p>Dos entrevistados, 60% disseram que seus pais nunca leram para eles na infância.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Frequência às Bibliotecas</div>
+            <div class="stat-value">17%</div>
+            <p>Apenas 17% da população frequenta bibliotecas regularmente.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Preço dos Livros</div>
+            <div class="stat-value">7%</div>
+            <p>Dos leitores, 7% não leram mais por acharem os livros caros.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/mobile-menu.js"></script>
+  </body>
+</html>

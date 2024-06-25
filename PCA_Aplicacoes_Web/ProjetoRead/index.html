@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/variaveis.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/responsivo/menu-responsivo.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsivo/index-responsivo.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Read</title>
+  </head>
+  <body onresize="ocultaMenuMobile()">
+    <div id="container">
+      <header>
+        <a href="index.html"
+          ><img src="assets/img/logo.png" alt="logo-do-site"
+        /></a>
+        <nav class="list-menu">
+          <ul>
+            <li><a href="views/biblioteca.html">Biblioteca</a></li>
+            <li><a href="views/leitura.html">Leitura</a></li>
+            <li><a href="views/estatisticas.html">Estatisticas</a></li>
+            <li><a href="views/praticaEscrita.html">Prática da Escrita</a></li>
+            <li><a href="views/contatos.html">Contatos</a></li>
+          </ul>
+        </nav>
+        <div id="icon-mobile-menu" onclick="abreMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <nav class="mobile-menu">
+        <ul>
+          <li><a href="views/biblioteca.html">Biblioteca</a></li>
+          <li><a href="views/leitura.html">Leitura</a></li>
+          <li><a href="views/estatisticas.html">Estatisticas</a></li>
+          <li><a href="views/praticaEscrita.html">Prática da Escrita</a></li>
+          <li><a href="views/contatos.html">Contatos</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div id="img-capa">
+          <img src="assets/img/leitura.jpg" alt="" />
+        </div>
+        <div id="main-content">
+          <h1>Leitura</h1>
+          <p>
+            A leitura sempre esteve presente na humanidade, pois através dela
+            podemos estimular o nosso cérebro a pensar rápido e a ser criativo.
+            É importante estimula-la desde criança para ela poder crescer e ter
+            uma mente afiada para a leitura e pensamento rápido. A leitura
+            diária também nos permite estabelecer uma conexão entre as palavras
+            que lemos e as que usamos oralmente e também, quanto mais vemos uma
+            palavra escrita, mais facilidade temos para nos lembrarmos de como
+            devemos escrevê-la, logo, quem lê com mais frequência se comunica
+            melhor e também escreve melhor.
+          </p>
+          <p>
+            O hábito da leitura vem sendo deixado de lado devido ao aumento da
+            tecnologia, antes as pesquisas que eram feitas em livros e
+            enciclopédias passaram a ser pela internet, que contém vídeos,
+            imagens e áudios à disposição, dificultando o interesse em
+            ler. Pessoas analfabetas têm de duas a três vezes mais chances de
+            desenvolver demência, em comparação com aquelas que sabem ler e
+            escrever
+          </p>
+        </div>
+        <div id="img-capa-mobile">
+          <img src="assets/img/leitura.jpg" alt="" />
+        </div>
+      </main>
+    </div>
+
+    <script src="js/mobile-menu.js"></script>
+  </body>
+</html>
